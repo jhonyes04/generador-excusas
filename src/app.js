@@ -23,8 +23,8 @@ window.onload = function () {
 
     template += `${who[Math.floor(Math.random() * 4)]} `;
     template += `${action[Math.floor(Math.random() * 4)]} `;
-    template += `${what[Math.floor(Math.random() * 4)]} `;
-    template += `${when[Math.floor(Math.random() * 4)]}`;
+    template += `${what[Math.floor(Math.random() * 3)]} `;
+    template += `${when[Math.floor(Math.random() * 5)]}`;
 
     excuse.innerHTML = template;
 };
